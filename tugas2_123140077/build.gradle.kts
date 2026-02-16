@@ -18,6 +18,10 @@ application {
     mainClass.set("NewsFeedSimulatorKt")
 }
 
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
+
 kotlin {
     jvmToolchain(17)
 }
