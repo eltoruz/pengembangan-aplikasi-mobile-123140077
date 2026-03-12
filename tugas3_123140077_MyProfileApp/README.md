@@ -2,7 +2,7 @@
 
 
 **Nama:** Rifael Eurico Sitorus<br>
-**NIM:** 123140077
+**NIM:** 123140077<br>
 **Kelas:** RA
 
 ## 📸 Screenshot Aplikasi
