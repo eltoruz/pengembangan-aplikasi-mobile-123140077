@@ -50,7 +50,7 @@ fun ProfileScreen() {
         InfoItem(icon = Icons.Default.Email,    label = "Email",    value = "eltoruz@wearehackerone.com")
         InfoItem(icon = Icons.Default.Phone,    label = "Phone",    value = "+62 812-3456-7890")
         InfoItem(icon = Icons.Default.LocationOn, label = "Location", value = "Lampung, Indonesia")
-        InfoItem(icon = Icons.Default.Work,     label = "Job",      value = "ITERA - Teknik Informatika (Student)   ")
+
 
         Spacer(modifier = Modifier.height(16.dp))
 

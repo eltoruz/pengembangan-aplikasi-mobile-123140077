@@ -7,7 +7,7 @@
 ## 📸 Screenshot Aplikasi
 
 ### Android
-![alt text](https://github.com/user-attachments/assets/faaaaf9d-85b3-433c-9fe7-0cd6ebef102e)
+![alt text](https://github.com/user-attachments/assets/a224bab0-d714-4906-ac49-16da2b68ac30)
 
 ### Desktop
-![alt text](https://github.com/user-attachments/assets/365cf4ce-c862-41b9-af92-51735abd7798)
+![alt text](https://github.com/user-attachments/assets/fae9b30d-b351-4dd5-b88d-6c37b219ccf1)
