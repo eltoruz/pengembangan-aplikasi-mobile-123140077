@@ -1,50 +1,21 @@
-<!-- ## TUGAS 5 PENGEMBANGAN APLIKASI MOBILE 
-
+## TUGAS 5 — PENGEMBANGAN APLIKASI MOBILE
 
 **Nama:** Rifael Eurico Sitorus<br>
 **NIM:** 123140077<br>
 **Kelas:** RA
 
-[//]: # (## 📸 Screenshot Aplikasi)
-
-[//]: # ()
-[//]: # (### Android)
-
-[//]: # (![alt text]&#40;https://github.com/user-attachments/assets/a224bab0-d714-4906-ac49-16da2b68ac30&#41;)
-
-[//]: # ()
-[//]: # (### Desktop)
-
-[//]: # (![alt text]&#40;https://github.com/user-attachments/assets/fae9b30d-b351-4dd5-b88d-6c37b219ccf1&#41;)
-
-[//]: # ()
-
 ---
 
-## 📸 Screenshot Aplikasi
+## � Deskripsi Proyek
 
-### Android
+Aplikasi **Notes + Profile** berbasis **Kotlin Multiplatform (KMP)** dengan **Compose Multiplatform**. Pada tugas 5 ini diimplementasikan **Multi-Screen Navigation** menggunakan **Navigation Component**, termasuk:
 
-|                                        Profile View                                         |                                       Edit Profile                                       |                                          Dark Mode                                           |
-|:-------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| ![Profile](https://github.com/user-attachments/assets/6249505f-7148-406e-babf-0130b5fa1698) | ![Edit](https://github.com/user-attachments/assets/73cd4feb-81d2-44a2-89d9-17cc09a24720) | ![DarkMode](https://github.com/user-attachments/assets/25848955-5138-4efc-861a-c6e7d53bae4c) |
-
-
-### Desktop
-
-|                                        Profile View                                         |                                       Edit Profile                                       |                                          Dark Mode                                           |
-|:-------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| ![Profile](https://github.com/user-attachments/assets/c2385f6a-dba1-4b44-b9d8-507424b0f824) | ![Edit](https://github.com/user-attachments/assets/5b1ae805-fbb2-4f4a-b38e-fb3017cd56f0) | ![DarkMode](https://github.com/user-attachments/assets/45fc656d-696e-4dcd-a673-d4be273588ab) |
-
-
-
----
-
-
-
-## 📋 Deskripsi Proyek
-
-Aplikasi profil pribadi berbasis **Kotlin Multiplatform (KMP)** dengan **Compose Multiplatform**, dikembangkan dari tugas minggu 3. Pada minggu 4 ini ditambahkan implementasi **MVVM Architecture Pattern**, fitur **Edit Profile**, dan **Dark Mode Toggle**.
+- **Bottom Navigation** dengan 3 tab (Notes, Favorites, Profile)
+- **CRUD Notes** (Create, Read, Update, Delete)
+- **Favorite Notes** filtering
+- **Profile View & Edit Profile**
+- **Argument passing** antar screen (noteId)
+- **Back navigation** yang konsisten
 
 ---
 
@@ -52,59 +23,136 @@ Aplikasi profil pribadi berbasis **Kotlin Multiplatform (KMP)** dengan **Compose
 
 | Fitur | Deskripsi |
 |---|---|
-| 👤 Profile View | Menampilkan foto, nama, bio, info kontak, dan daftar skill |
-| ✏️ Edit Profile | Form edit nama dan bio dengan validasi dan preview realtime |
-| 🌙 Dark Mode | Toggle dark/light mode yang tersimpan di ViewModel |
-| 📤 Share Profile | Tombol share profile (UI placeholder) |
+| 📝 Notes List | Menampilkan daftar catatan dengan opsi favorite & delete |
+| ⭐ Favorites | Menampilkan catatan yang ditandai sebagai favorit |
+| 👤 Profile | Menampilkan profil pengguna dengan toggle dark mode |
+| ➕ Add Note | Form tambah catatan baru (judul & konten) |
+| 📖 Note Detail | Detail catatan dengan opsi edit, delete, & toggle favorite |
+| ✏️ Edit Note | Form edit judul & konten catatan |
+| ✏️ Edit Profile | Form edit nama & bio profil |
+| 🌙 Dark Mode | Toggle dark/light mode |
 
 ---
 
-## 🏗️ Arsitektur: MVVM Pattern
+## 🏗️ Arsitektur & Struktur Folder
 
 ```
-┌─────────────────────────────────────────────┐
-│                  DATA LAYER                  │
-│         data/ProfileModel.kt                 │
-│   ProfileData · ProfileUiState               │
-└─────────────────────┬───────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────┐
-│               VIEWMODEL LAYER                │
-│       viewmodel/ProfileViewModel.kt          │
-│   StateFlow<ProfileUiState>                  │
-│   toggleDarkMode() · saveProfile()           │
-│   openEditMode()  · cancelEdit()             │
-└──────────┬──────────────────────┬───────────┘
-    state ↓                       ↑ events
-┌──────────▼──────────────────────┴───────────┐
-│                  UI LAYER                    │
-│   App.kt                                     │
-│   ├── ui/ProfileScreen.kt                    │
-│   └── ui/EditProfileScreen.kt                │
-└─────────────────────────────────────────────┘
-```
-
-### Alur Data
-- **State** mengalir ke bawah: ViewModel → UI
-- **Event** mengalir ke atas: UI → ViewModel
-
----
-
-## 📁 Struktur Folder
-
-```
-composeApp/src/commonMain/kotlin/com/yourname/myprofileapp/
+composeApp/src/commonMain/kotlin/com/eltoruz/myprofileapp/
 │
-├── App.kt                        # Entry point, menghubungkan ViewModel ke UI
+├── App.kt                          # Entry point, tema & navigasi
 │
 ├── data/
-│   └── ProfileModel.kt           # Data class: ProfileData, ProfileUiState
+│   ├── NoteModel.kt                # Data class: Note
+│   └── ProfileModel.kt             # Data class: ProfileData, ProfileUiState
 │
 ├── viewmodel/
-│   └── ProfileViewModel.kt       # ViewModel dengan StateFlow
+│   ├── NoteViewModel.kt            # ViewModel CRUD Notes + Favorites
+│   └── ProfileViewModel.kt         # ViewModel Profile + Dark Mode
+│
+├── navigation/
+│   ├── Screen.kt                   # Sealed class routes & BottomNavItem
+│   └── AppNavigation.kt            # NavHost, Bottom Navigation, routing
+│
+├── screens/
+│   ├── NoteListScreen.kt           # Tab 1: Daftar Notes
+│   ├── FavoritesScreen.kt          # Tab 2: Daftar Favorites
+│   ├── NoteDetailScreen.kt         # Detail Note (argument: noteId)
+│   ├── AddNoteScreen.kt            # Form tambah Note
+│   └── EditNoteScreen.kt           # Form edit Note (argument: noteId)
 │
 └── ui/
-    ├── ProfileScreen.kt          # Tampilan utama profil
-    └── EditProfileScreen.kt      # Form edit profil + LabeledTextField
+    ├── ProfileScreen.kt            # Tab 3: Tampilan Profile
+    └── EditProfileScreen.kt        # Form edit Profile
 ```
- -->
+
+---
+
+## 🗺️ Navigation Flow Diagram
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                   BOTTOM NAVIGATION                      │
+│                                                          │
+│   ┌──────────┐    ┌──────────┐    ┌──────────┐          │
+│   │  Notes   │    │Favorites │    │ Profile  │          │
+│   │  (Tab 1) │    │ (Tab 2)  │    │ (Tab 3)  │          │
+│   └────┬─────┘    └────┬─────┘    └────┬─────┘          │
+│        │               │               │                 │
+└────────┼───────────────┼───────────────┼─────────────────┘
+         │               │               │
+         ▼               │               ▼
+   ┌───────────┐         │        ┌──────────────┐
+   │ Add Note  │         │        │ Edit Profile │
+   │  (FAB +)  │         │        │              │
+   └───────────┘         │        └──────────────┘
+         │               │
+         │               │
+         ▼               ▼
+   ┌─────────────────────────┐
+   │      Note Detail        │
+   │   (argument: noteId)    │
+   └───────────┬─────────────┘
+               │
+               ▼
+   ┌─────────────────────────┐
+   │       Edit Note         │
+   │   (argument: noteId)    │
+   └─────────────────────────┘
+```
+
+### Penjelasan Navigation Flow:
+1. **Notes → Note Detail** — Klik catatan untuk melihat detail (passing `noteId`)
+2. **Notes → Add Note** — Klik FAB (+) untuk tambah catatan baru
+3. **Favorites → Note Detail** — Klik catatan favorit untuk melihat detail (passing `noteId`)
+4. **Note Detail → Edit Note** — Klik tombol edit untuk mengedit catatan (passing `noteId`)
+5. **Profile → Edit Profile** — Klik tombol edit untuk mengedit profil
+6. **Back Navigation** — Semua screen non-tab mendukung kembali ke screen sebelumnya
+
+---
+
+## 📸 Screenshot Setiap Screen
+
+### 1. Notes List Screen (Tab 1 — Home)
+![Notes List Screen](masukkan link disini)
+
+### 2. Favorites Screen (Tab 2)
+![Favorites Screen](masukkan link disini)
+
+### 3. Profile Screen (Tab 3)
+![Profile Screen](masukkan link disini)
+
+### 4. Note Detail Screen
+![Note Detail Screen](masukkan link disini)
+
+### 5. Add Note Screen
+![Add Note Screen](masukkan link disini)
+
+### 6. Edit Note Screen
+![Edit Note Screen](masukkan link disini)
+
+### 7. Edit Profile Screen
+![Edit Profile Screen](masukkan link disini)
+
+---
+
+## 🎬 Video Demo (30 Detik)
+
+Video demo menunjukkan semua navigation flows:
+1. Navigasi antar tab (Notes → Favorites → Profile)
+2. Tambah Note baru (Notes → Add Note → kembali)
+3. Lihat detail & edit Note (Notes → Note Detail → Edit Note → kembali)
+4. Toggle Favorite dari Note Detail
+5. Edit Profile (Profile → Edit Profile → kembali)
+
+🔗 **Link Video Demo:** [masukkan link disini](masukkan link disini)
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Kotlin Multiplatform (KMP)**
+- **Compose Multiplatform**
+- **Navigation Component** (`androidx.navigation`)
+- **Material 3**
+- **MVVM Architecture Pattern**
+- **StateFlow & ViewModel**
