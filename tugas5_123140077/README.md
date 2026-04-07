@@ -116,25 +116,59 @@ composeApp/src/commonMain/kotlin/com/eltoruz/myprofileapp/
 ## 📸 Screenshot Setiap Screen
 
 ### 1. Notes List Screen (Tab 1 — Home)
-![Notes List Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/e1cc4271-571e-4701-8b5e-44b40bb8ced4) | ![Desktop](https://github.com/user-attachments/assets/d2eb8e85-9f19-40ca-a7cc-6f60c6071710) | 
+
+
 
 ### 2. Favorites Screen (Tab 2)
-![Favorites Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/ba690305-4775-4c9b-9170-24aaad6e7988) | ![Desktop](https://github.com/user-attachments/assets/1664e370-2f7a-4e4e-aaf3-17c518dfb35e) | 
+
+
 
 ### 3. Profile Screen (Tab 3)
-![Profile Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/18d738a5-81d3-490c-8b0d-a79c2b60c430) | ![Desktop](https://github.com/user-attachments/assets/5b119e79-77dc-4fb1-91e9-70b173e1ca57) | 
+
+
 
 ### 4. Note Detail Screen
-![Note Detail Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/3888a43e-4da4-451b-9edb-f11b11d12d21) | ![Desktop](https://github.com/user-attachments/assets/1cd6a411-9d1d-408b-b8a2-39d7301d20cc) | 
+
+
 
 ### 5. Add Note Screen
-![Add Note Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/a66ab81f-e815-4f85-99ec-8fa72d36b976) | ![Desktop](https://github.com/user-attachments/assets/312e244b-bb15-40d6-9283-977646d55254) | 
+
 
 ### 6. Edit Note Screen
-![Edit Note Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/4d6afe27-7ac7-49e8-a775-f772e28dc858) | ![Desktop](https://github.com/user-attachments/assets/0f8ab61b-26db-4f33-a2ba-dcc280d84565) | 
+
+
 
 ### 7. Edit Profile Screen
-![Edit Profile Screen](masukkan link disini)
+
+|                                           Android                                           |                                           Desktop                                           | 
+|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Android](https://github.com/user-attachments/assets/b44a5bff-f1c9-4db1-8264-3cfb366c7c85) | ![Desktop](https://github.com/user-attachments/assets/0f8ab61b-26db-4f33-a2ba-dcc280d84565) | 
+
+
 
 ---
 
