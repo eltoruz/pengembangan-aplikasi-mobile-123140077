@@ -16,8 +16,6 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import androidx.savedstate.read
 import com.eltoruz.myprofileapp.screens.*
-import com.eltoruz.myprofileapp.ui.ProfileScreen
-import com.eltoruz.myprofileapp.ui.EditProfileScreen
 import com.eltoruz.myprofileapp.data.ProfileUiState
 import com.eltoruz.myprofileapp.viewmodel.NoteViewModel
 import com.eltoruz.myprofileapp.viewmodel.ProfileViewModel
@@ -33,18 +31,18 @@ fun AppNavigation(
     val notes by noteViewModel.notes.collectAsState()
     val favoriteNotes = notes.filter { it.isFavorite }
 
-    // Determine current route for bottom bar visibility
+
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
 
-    // Bottom nav items
+
     val bottomNavItems = listOf(
         BottomNavItem.Notes,
         BottomNavItem.Favorites,
         BottomNavItem.Profile
     )
 
-    // Routes where bottom nav should be visible
+
     val bottomNavRoutes = bottomNavItems.map { it.route }
     val showBottomBar = currentRoute in bottomNavRoutes
 
@@ -97,7 +95,7 @@ fun AppNavigation(
             startDestination = Screen.NoteList.route,
             modifier = Modifier.padding(paddingValues)
         ) {
-            // ===== Tab 1: Notes List =====
+
             composable(Screen.NoteList.route) {
                 NoteListScreen(
                     notes = notes,
@@ -113,7 +111,7 @@ fun AppNavigation(
                 )
             }
 
-            // ===== Tab 2: Favorites =====
+
             composable(Screen.Favorites.route) {
                 FavoritesScreen(
                     favoriteNotes = favoriteNotes,
@@ -126,7 +124,7 @@ fun AppNavigation(
                 )
             }
 
-            // ===== Tab 3: Profile =====
+
             composable(Screen.Profile.route) {
                 ProfileScreen(
                     profile = profileUiState.profile,
@@ -138,7 +136,7 @@ fun AppNavigation(
                 )
             }
 
-            // ===== Edit Profile =====
+
             composable("edit_profile") {
                 EditProfileScreen(
                     currentName = profileUiState.profile.name,
@@ -154,7 +152,7 @@ fun AppNavigation(
                 )
             }
 
-            // ===== Note Detail (with argument) =====
+
             composable(
                 route = Screen.NoteDetail.route,
                 arguments = listOf(
@@ -180,7 +178,7 @@ fun AppNavigation(
                 )
             }
 
-            // ===== Add Note =====
+
             composable(Screen.AddNote.route) {
                 AddNoteScreen(
                     onBack = { navController.popBackStack() },
@@ -191,7 +189,7 @@ fun AppNavigation(
                 )
             }
 
-            // ===== Edit Note (with argument) =====
+
             composable(
                 route = Screen.EditNote.route,
                 arguments = listOf(

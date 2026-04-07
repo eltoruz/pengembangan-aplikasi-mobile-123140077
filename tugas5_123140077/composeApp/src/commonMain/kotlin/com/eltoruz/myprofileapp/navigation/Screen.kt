@@ -6,9 +6,7 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.ui.graphics.vector.ImageVector
 
-// ==========================================
-// Routes — sealed class untuk semua screen
-// ==========================================
+
 sealed class Screen(val route: String) {
     object NoteList : Screen("note_list")
     object NoteDetail : Screen("note_detail/{noteId}") {
@@ -22,9 +20,7 @@ sealed class Screen(val route: String) {
     object Profile : Screen("profile")
 }
 
-// ==========================================
-// Bottom Navigation Items
-// ==========================================
+
 sealed class BottomNavItem(
     val route: String,
     val icon: ImageVector,
