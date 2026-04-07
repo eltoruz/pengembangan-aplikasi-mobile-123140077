@@ -56,13 +56,16 @@ composeApp/src/commonMain/kotlin/com/eltoruz/myprofileapp/
 ├── screens/
 │   ├── NoteListScreen.kt           # Tab 1: Daftar Notes
 │   ├── FavoritesScreen.kt          # Tab 2: Daftar Favorites
+│   ├── ProfileScreen.kt            # Tab 3: Tampilan Profile
 │   ├── NoteDetailScreen.kt         # Detail Note (argument: noteId)
 │   ├── AddNoteScreen.kt            # Form tambah Note
-│   └── EditNoteScreen.kt           # Form edit Note (argument: noteId)
+│   ├── EditNoteScreen.kt           # Form edit Note (argument: noteId)
+│   └── EditProfileScreen.kt        # Form edit Profile
 │
-└── ui/
-    ├── ProfileScreen.kt            # Tab 3: Tampilan Profile
-    └── EditProfileScreen.kt        # Form edit Profile
+└── components/
+    ├── ProfileComponents.kt        # Komponen reusable: ProfileHeader, InfoItem, SkillCard, SkillChip
+    ├── NoteComponents.kt           # Komponen reusable: NoteCard, FavoriteNoteCard
+    └── FormComponents.kt           # Komponen reusable: LabeledTextField
 ```
 
 ---

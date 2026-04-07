@@ -20,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.eltoruz.myprofileapp.components.FavoriteNoteCard
 import com.eltoruz.myprofileapp.data.Note
 
 @Composable
@@ -64,71 +65,6 @@ fun FavoritesScreen(
                     note = note,
                     onClick = { onNoteClick(note.id) },
                     onToggleFavorite = { onToggleFavorite(note.id) }
-                )
-            }
-        }
-    }
-}
-
-@Composable
-fun FavoriteNoteCard(
-    note: Note,
-    onClick: () -> Unit,
-    onToggleFavorite: () -> Unit
-) {
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable(onClick = onClick),
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = Color.White),
-        elevation = CardDefaults.cardElevation(4.dp)
-    ) {
-        Row(
-            modifier = Modifier.padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Box(
-                modifier = Modifier
-                    .size(48.dp)
-                    .clip(CircleShape)
-                    .background(Color(0xFFFCE4EC)),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = Icons.Default.Favorite,
-                    contentDescription = null,
-                    tint = Color(0xFFE91E63),
-                    modifier = Modifier.size(24.dp)
-                )
-            }
-
-            Spacer(modifier = Modifier.width(16.dp))
-
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = note.title,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 16.sp,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                    color = Color(0xFF1A1A1A)
-                )
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(
-                    text = note.content,
-                    fontSize = 13.sp,
-                    color = Color(0xFF757575),
-                    maxLines = 2,
-                    overflow = TextOverflow.Ellipsis
-                )
-            }
-
-            IconButton(onClick = onToggleFavorite) {
-                Icon(
-                    imageVector = Icons.Default.Favorite,
-                    contentDescription = "Remove from Favorites",
-                    tint = Color(0xFFE91E63)
                 )
             }
         }

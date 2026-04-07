@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.eltoruz.myprofileapp.components.NoteCard
 import com.eltoruz.myprofileapp.data.Note
 
 @Composable
@@ -32,7 +33,7 @@ fun NoteListScreen(
     onDeleteNote: (Int) -> Unit
 ) {
     if (notes.isEmpty()) {
-        // Empty state
+
         Box(
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
@@ -71,88 +72,6 @@ fun NoteListScreen(
                     onDelete = { onDeleteNote(note.id) }
                 )
             }
-        }
-    }
-}
-
-@Composable
-fun NoteCard(
-    note: Note,
-    onClick: () -> Unit,
-    onToggleFavorite: () -> Unit,
-    onDelete: () -> Unit
-) {
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable(onClick = onClick),
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = Color.White),
-        elevation = CardDefaults.cardElevation(4.dp)
-    ) {
-        Column(modifier = Modifier.padding(16.dp)) {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.weight(1f)
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .size(40.dp)
-                            .clip(CircleShape)
-                            .background(Color(0xFFE3F2FD)),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Icon(
-                            imageVector = Icons.Default.Notes,
-                            contentDescription = null,
-                            tint = Color(0xFF1976D2),
-                            modifier = Modifier.size(22.dp)
-                        )
-                    }
-                    Spacer(modifier = Modifier.width(12.dp))
-                    Text(
-                        text = note.title,
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 16.sp,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                        color = Color(0xFF1A1A1A)
-                    )
-                }
-
-                Row {
-                    IconButton(onClick = onToggleFavorite) {
-                        Icon(
-                            imageVector = if (note.isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
-                            contentDescription = "Toggle Favorite",
-                            tint = if (note.isFavorite) Color(0xFFE91E63) else Color(0xFFBDBDBD)
-                        )
-                    }
-                    IconButton(onClick = onDelete) {
-                        Icon(
-                            imageVector = Icons.Default.Delete,
-                            contentDescription = "Delete",
-                            tint = Color(0xFFBDBDBD)
-                        )
-                    }
-                }
-            }
-
-            Spacer(modifier = Modifier.height(8.dp))
-
-            Text(
-                text = note.content,
-                fontSize = 14.sp,
-                color = Color(0xFF757575),
-                maxLines = 2,
-                overflow = TextOverflow.Ellipsis,
-                lineHeight = 20.sp
-            )
         }
     }
 }
