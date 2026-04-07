@@ -166,7 +166,7 @@ composeApp/src/commonMain/kotlin/com/eltoruz/myprofileapp/
 
 |                                           Android                                           |                                           Desktop                                           | 
 |:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
-| ![Android](https://github.com/user-attachments/assets/b44a5bff-f1c9-4db1-8264-3cfb366c7c85) | ![Desktop](https://github.com/user-attachments/assets/0f8ab61b-26db-4f33-a2ba-dcc280d84565) | 
+| ![Android](https://github.com/user-attachments/assets/b44a5bff-f1c9-4db1-8264-3cfb366c7c85) | ![Desktop](https://github.com/user-attachments/assets/1d333bc1-4657-48af-a7ea-8ea22880f881) | 
 
 
 
@@ -181,7 +181,7 @@ Video demo menunjukkan semua navigation flows:
 4. Toggle Favorite dari Note Detail
 5. Edit Profile (Profile → Edit Profile → kembali)
 
-🔗 **Link Video Demo:** [masukkan link disini](masukkan link disini)
+🔗 **Link Video Demo:** [VideoDemo](https://github.com/user-attachments/assets/a9a1381e-04bd-4724-8f1f-167b16acd1a7)
 
 ---
 
