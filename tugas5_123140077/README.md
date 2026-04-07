@@ -116,25 +116,25 @@ composeApp/src/commonMain/kotlin/com/eltoruz/myprofileapp/
 ## 📸 Screenshot Setiap Screen
 
 ### 1. Notes List Screen (Tab 1 — Home)
-![Notes List Screen](masukkan link disini)
+![Notes List Screen]()
 
 ### 2. Favorites Screen (Tab 2)
-![Favorites Screen](masukkan link disini)
+![Favorites Screen]()
 
 ### 3. Profile Screen (Tab 3)
-![Profile Screen](masukkan link disini)
+![Profile Screen]()
 
 ### 4. Note Detail Screen
-![Note Detail Screen](masukkan link disini)
+![Note Detail Screen]()
 
 ### 5. Add Note Screen
-![Add Note Screen](masukkan link disini)
+![Add Note Screen]()
 
 ### 6. Edit Note Screen
-![Edit Note Screen](masukkan link disini)
+![Edit Note Screen]()
 
 ### 7. Edit Profile Screen
-![Edit Profile Screen](masukkan link disini)
+![Edit Profile Screen]()
 
 ---
 
@@ -147,7 +147,7 @@ Video demo menunjukkan semua navigation flows:
 4. Toggle Favorite dari Note Detail
 5. Edit Profile (Profile → Edit Profile → kembali)
 
-🔗 **Link Video Demo:** [masukkan link disini](masukkan link disini)
+🔗 **Link Video Demo:** 
 
 ---
 
