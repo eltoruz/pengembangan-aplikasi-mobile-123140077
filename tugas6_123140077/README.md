@@ -84,26 +84,25 @@ composeApp/src/commonMain/kotlin/com/eltoruz/newsreader/
 ## 📸 Screenshot Semua States
 
 ### Loading State
-> Tampil saat aplikasi sedang memuat data dari API
+
 
 ![Android](https://github.com/user-attachments/assets/99dcce44-dc8f-46b0-80f1-a49db84cca46)
 
 ### Success State  
-> Tampil saat data berhasil dimuat - menampilkan list artikel
+
 
 ![Android](https://github.com/user-attachments/assets/c09f836a-0530-4dfd-8125-79341542e763)
 
 ### Error State
-> Tampil saat gagal memuat data (misal: airplane mode) - dengan tombol Retry
+
 
 ![Android](https://github.com/user-attachments/assets/dbbc742e-2923-4b03-92c3-6e3e0dcf08a2)
 
 ### Detail Screen
-> Tampil saat artikel di-klik - menampilkan gambar, judul, dan isi lengkap
+
 ![Android](https://github.com/user-attachments/assets/69227d10-6c36-4b58-8e9a-bacc243124de)
 
 ### Pull to Refresh
-> Gesture tarik ke bawah untuk memuat ulang data
 
 ![Android](https://github.com/user-attachments/assets/f35a53c6-ca7a-436a-bb8e-1c74222a9cb3)
 
