@@ -1,0 +1,1 @@
+/home/eltoruz/.konan/kotlin-native-prebuilt-linux-x86_64-2.3.20/klib/commonized/2.3.20
