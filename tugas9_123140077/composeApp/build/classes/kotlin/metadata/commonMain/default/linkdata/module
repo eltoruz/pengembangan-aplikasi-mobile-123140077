@@ -1,0 +1,2 @@
+
+<composeApp_commonMain>:com.eltoruz.myprofileapp:#com.eltoruz.myprofileapp.components:com.eltoruz.myprofileapp.data:#com.eltoruz.myprofileapp.navigation: com.eltoruz.myprofileapp.screens:"com.eltoruz.myprofileapp.viewmodel:+myprofileapp.composeapp.generated.resources

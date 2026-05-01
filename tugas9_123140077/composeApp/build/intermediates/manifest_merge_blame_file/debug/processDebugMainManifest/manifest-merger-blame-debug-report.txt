@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eltoruz.myprofileapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
+11-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:5:5-79
+12-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:5:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.eltoruz.myprofileapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.eltoruz.myprofileapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:7:5-24:19
+21        android:name="com.eltoruz.myprofileapp.MyApp"
+21-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:8:9-30
+22        android:allowBackup="true"
+22-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+31-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:14:9-72
+32        <activity
+32-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:15:9-23:20
+33            android:name="com.eltoruz.myprofileapp.MainActivity"
+33-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
+34            android:exported="true" >
+34-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:16:13-36
+35            <intent-filter>
+35-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:18:13-22:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:19:17-69
+36-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:19:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:21:17-77
+38-->/home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:21:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:8:9-13:20
+43            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+43-->[org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:9:13-82
+44            android:authorities="com.eltoruz.myprofileapp.resources.AndroidContextProvider"
+44-->[org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:10:13-84
+45            android:enabled="true"
+45-->[org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:11:13-35
+46            android:exported="false" >
+46-->[org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:12:13-37
+47        </provider>
+48
+49        <activity
+49-->[androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+50            android:name="androidx.compose.ui.tooling.PreviewActivity"
+50-->[androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+51            android:exported="true" />
+51-->[androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+55            android:authorities="com.eltoruz.myprofileapp.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+64                android:name="com.russhwolf.settings.SettingsInitializer"
+64-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+65                android:value="androidx.startup" />
+65-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <uses-library
+71-->[androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+74        <uses-library
+74-->[androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+76            android:required="false" />
+76-->[androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>

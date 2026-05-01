@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.eltoruz.myprofileapp.composeApp-mergeDebugResources-52:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/home/eltoruz/.gradle/caches/8.14.3/transforms/d603fd29e6c955072320af74db4bc4b2/transformed/material3/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

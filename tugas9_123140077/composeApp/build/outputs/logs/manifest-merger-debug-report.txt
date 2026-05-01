@@ -1,0 +1,479 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+MERGED from [io.insert-koin:koin-android:3.5.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/53f992cc57d9637239cbefdf4d6fd6b4/transformed/koin-android-3.5.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/36ddfb00753e120922fa6975a65fafc4/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/841c32533c821c024576821a925efef7/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/b69a46373ab170acc33e351d5ee0890d/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/31f43189fe30ba290f67c980082407d0/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d603fd29e6c955072320af74db4bc4b2/transformed/material3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/3d52566d289d42f7f713b1d3ba1fd33d/transformed/navigation-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/ac17640d348517d7d4559972992150ef/transformed/navigation-common-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/a186da1b7b86dadd4bcc1bd278146306/transformed/navigation-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/5ceaec3fa3c2369dc618cca0f92fb4c2/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/42e4a87c49028be3044d6a6f95f79766/transformed/material-ripple/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/11b47dc6d7f77de140459fce81f5c826/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/22371e6f411c7578873b76745dc628f4/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/620e668c704bf51c632fe35dd63b15a3/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/712f0227c1bab4ddcbe8e7b1c8f2cd3c/transformed/foundation/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/99fefdc0860e79c85e3904031a9a8db5/transformed/ui-backhandler-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/28123f5b4578e140361a6599ad0ff488/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/5870ea7903365ffa384476382f8341e5/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4d1fa6d6e9bc5608e46186563f01e49e/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/05df286c7e88f315a367c03d3556dd9f/transformed/ui-graphics/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/894187316586cc2091d78ecd1f89b4a0/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a380387a969f5e2de577d2713078c067/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ab35a8f03c653c519f7c24909ed980b1/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/360253ed953a2d0d14ec118a3d403fe8/transformed/navigationevent/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/3c636d774cfb3927d99a4d5c2d0e8d28/transformed/navigationevent-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.6.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/1eebe900cb486333ada7e8f691db541a/transformed/transition-1.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4f9fe15012c034789ebe427c0327c7d0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/86f98d25426b46e9043722274713a8f6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/2c09a3a8e8aee551dfcf15a05f45a4af/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/6ba3ebbbb1f1744ae1dd45bf926a6de5/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/865edbe917a35cc56c88edb5091c5aaf/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06f9ba92449852230cf94ea45737b13/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/089fda6761175212d1490bb1d512dfbd/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/9f830a45067a4a54ae556992aa136bbe/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/94fe14d6e37d3a39ee196ce9e35fb319/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/19d3a76c34f0a7ab4fa1931dc3e87087/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/4139848bd9b699d3fde33dc3e3bc3574/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/56c3b5c4f12dbc7d31b65100e4c3b3e6/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/47f6f06a32978ff6e140691dcb82ea43/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/e6c08459c1a0c8439e520a31524b4f4b/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ccba330cc6278ad6b71a5a786bf4620/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/009889b7a1a03cc02687c0925150db83/transformed/savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/28d684bc43311abcbbbb1e32ed1289b5/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/fe282d4477caea032baadf3a1089d373/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4fb7854681a6ea35a303f7fb96793c17/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ad976e4715adb6bda6b99ab6c7cf1292/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ccdd4c2d7e326b0dc8867115575eb0d6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/fed0fbc459e3d0f1f8508d627f33fa93/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/0472dafc35942f3f51523dbd12a6a063/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-core-android:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/12c4b8ddf24e3f548e7838f0408ef25b/transformed/window-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/b5dfc54f99f165b7e2e14fbe94058e0e/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/3b754af8633d3e6ba5686319dad8e7db/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/0ee1c4f657665cff5db7a97d21e76791/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/af2297dc27eac422ddb392993cc44904/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/0c53dfcf2c8214fa06cfb0290e7b7c76/transformed/runtime-retain/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/aa10f8fe7bb0bc3249b2f22f7494e076/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/e3e52789a9abde350fb02b97083bd1a7/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/bc238a2fc7e757bd80760132250fbaeb/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/eltoruz/.gradle/caches/8.14.3/transforms/e79f47384b2bb2da5efb11a463a5a4e5/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/eltoruz/.gradle/caches/8.14.3/transforms/657620c24a4ee8b4d19a14c977feaf30/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/3cd094a21639faf9f99f421d7015943d/transformed/ui/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/053471da24761f4fef193ceaa83814db/transformed/activity-ktx-1.12.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/c5278bdf721507d454c62b9c5349d5c1/transformed/activity-1.12.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/67a29186b9a83b3c1d69a0774d7db03a/transformed/activity-compose-1.12.2/AndroidManifest.xml:2:1-7:12
+MERGED from [app.cash.sqldelight:android-driver:2.0.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/ce6db70e3ced51af1ed08773cb53df5b/transformed/android-driver-2.0.2-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/791b0621388ec6803c70fec5ebf0340b/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/7df16226201b479dc1a79d69d8cd37a8/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/dffc7400fdd4b1af0d188b9f4089fc3b/transformed/multiplatform-settings-coroutines-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:17:1-35:12
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f698b8578c939a5ee5f2e889e3707a52/transformed/multiplatform-settings-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8c95b2990a64e6944a74b3e04e610fb6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f5d8164f2e600b19083e3ae0982484a0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/da322928e004425a19c75ff98c92290d/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d18b5b88a8278582532f7d97e0d75fef/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/54a6f564f230d1cbd1668c89cb57e581/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/9c95e6fd9127cd0b61f0b6a3df67ff51/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d56e5fb0408c2a00ae542a77dd8f3fdd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/221e539091a7c355a87c6e00eec5838c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/b22a520192e4ef82be95009f9c1d1191/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/7b1a8b5e657d192a25b8636943d1a7c8/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:5:22-76
+application
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:7:5-24:19
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:7:5-24:19
+MERGED from [io.insert-koin:koin-android:3.5.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/53f992cc57d9637239cbefdf4d6fd6b4/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-android:3.5.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/53f992cc57d9637239cbefdf4d6fd6b4/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:23:5-33:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f5d8164f2e600b19083e3ae0982484a0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f5d8164f2e600b19083e3ae0982484a0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:14:9-72
+	android:name
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:8:9-30
+activity#com.eltoruz.myprofileapp.MainActivity
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+MERGED from [io.insert-koin:koin-android:3.5.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/53f992cc57d9637239cbefdf4d6fd6b4/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.5.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/53f992cc57d9637239cbefdf4d6fd6b4/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/36ddfb00753e120922fa6975a65fafc4/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/36ddfb00753e120922fa6975a65fafc4/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/841c32533c821c024576821a925efef7/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/841c32533c821c024576821a925efef7/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/b69a46373ab170acc33e351d5ee0890d/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/b69a46373ab170acc33e351d5ee0890d/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/31f43189fe30ba290f67c980082407d0/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/31f43189fe30ba290f67c980082407d0/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d603fd29e6c955072320af74db4bc4b2/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d603fd29e6c955072320af74db4bc4b2/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/3d52566d289d42f7f713b1d3ba1fd33d/transformed/navigation-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/3d52566d289d42f7f713b1d3ba1fd33d/transformed/navigation-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/ac17640d348517d7d4559972992150ef/transformed/navigation-common-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/ac17640d348517d7d4559972992150ef/transformed/navigation-common-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/a186da1b7b86dadd4bcc1bd278146306/transformed/navigation-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose-android:2.9.7] /home/eltoruz/.gradle/caches/8.14.3/transforms/a186da1b7b86dadd4bcc1bd278146306/transformed/navigation-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/5ceaec3fa3c2369dc618cca0f92fb4c2/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/5ceaec3fa3c2369dc618cca0f92fb4c2/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/42e4a87c49028be3044d6a6f95f79766/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/42e4a87c49028be3044d6a6f95f79766/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/11b47dc6d7f77de140459fce81f5c826/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/11b47dc6d7f77de140459fce81f5c826/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/22371e6f411c7578873b76745dc628f4/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/22371e6f411c7578873b76745dc628f4/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/620e668c704bf51c632fe35dd63b15a3/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/620e668c704bf51c632fe35dd63b15a3/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/712f0227c1bab4ddcbe8e7b1c8f2cd3c/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/712f0227c1bab4ddcbe8e7b1c8f2cd3c/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/99fefdc0860e79c85e3904031a9a8db5/transformed/ui-backhandler-debug/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/99fefdc0860e79c85e3904031a9a8db5/transformed/ui-backhandler-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/28123f5b4578e140361a6599ad0ff488/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/28123f5b4578e140361a6599ad0ff488/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/5870ea7903365ffa384476382f8341e5/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/5870ea7903365ffa384476382f8341e5/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4d1fa6d6e9bc5608e46186563f01e49e/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4d1fa6d6e9bc5608e46186563f01e49e/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/05df286c7e88f315a367c03d3556dd9f/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/05df286c7e88f315a367c03d3556dd9f/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/894187316586cc2091d78ecd1f89b4a0/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/894187316586cc2091d78ecd1f89b4a0/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a380387a969f5e2de577d2713078c067/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a380387a969f5e2de577d2713078c067/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ab35a8f03c653c519f7c24909ed980b1/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ab35a8f03c653c519f7c24909ed980b1/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/360253ed953a2d0d14ec118a3d403fe8/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/360253ed953a2d0d14ec118a3d403fe8/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/3c636d774cfb3927d99a4d5c2d0e8d28/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/3c636d774cfb3927d99a4d5c2d0e8d28/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.6.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/1eebe900cb486333ada7e8f691db541a/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.6.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/1eebe900cb486333ada7e8f691db541a/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4f9fe15012c034789ebe427c0327c7d0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4f9fe15012c034789ebe427c0327c7d0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/86f98d25426b46e9043722274713a8f6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/86f98d25426b46e9043722274713a8f6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/2c09a3a8e8aee551dfcf15a05f45a4af/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/2c09a3a8e8aee551dfcf15a05f45a4af/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/6ba3ebbbb1f1744ae1dd45bf926a6de5/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/6ba3ebbbb1f1744ae1dd45bf926a6de5/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/865edbe917a35cc56c88edb5091c5aaf/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/865edbe917a35cc56c88edb5091c5aaf/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06f9ba92449852230cf94ea45737b13/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06f9ba92449852230cf94ea45737b13/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/089fda6761175212d1490bb1d512dfbd/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/089fda6761175212d1490bb1d512dfbd/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/9f830a45067a4a54ae556992aa136bbe/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/9f830a45067a4a54ae556992aa136bbe/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/94fe14d6e37d3a39ee196ce9e35fb319/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/94fe14d6e37d3a39ee196ce9e35fb319/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/19d3a76c34f0a7ab4fa1931dc3e87087/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/19d3a76c34f0a7ab4fa1931dc3e87087/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/4139848bd9b699d3fde33dc3e3bc3574/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/4139848bd9b699d3fde33dc3e3bc3574/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/56c3b5c4f12dbc7d31b65100e4c3b3e6/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/56c3b5c4f12dbc7d31b65100e4c3b3e6/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/47f6f06a32978ff6e140691dcb82ea43/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/47f6f06a32978ff6e140691dcb82ea43/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/e6c08459c1a0c8439e520a31524b4f4b/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/e6c08459c1a0c8439e520a31524b4f4b/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ccba330cc6278ad6b71a5a786bf4620/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ccba330cc6278ad6b71a5a786bf4620/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/009889b7a1a03cc02687c0925150db83/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.3] /home/eltoruz/.gradle/caches/8.14.3/transforms/009889b7a1a03cc02687c0925150db83/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/28d684bc43311abcbbbb1e32ed1289b5/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/28d684bc43311abcbbbb1e32ed1289b5/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/fe282d4477caea032baadf3a1089d373/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/fe282d4477caea032baadf3a1089d373/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4fb7854681a6ea35a303f7fb96793c17/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/4fb7854681a6ea35a303f7fb96793c17/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ad976e4715adb6bda6b99ab6c7cf1292/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ad976e4715adb6bda6b99ab6c7cf1292/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ccdd4c2d7e326b0dc8867115575eb0d6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ccdd4c2d7e326b0dc8867115575eb0d6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/fed0fbc459e3d0f1f8508d627f33fa93/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/fed0fbc459e3d0f1f8508d627f33fa93/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/0472dafc35942f3f51523dbd12a6a063/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/0472dafc35942f3f51523dbd12a6a063/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-core-android:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/12c4b8ddf24e3f548e7838f0408ef25b/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-core-android:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/12c4b8ddf24e3f548e7838f0408ef25b/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/b5dfc54f99f165b7e2e14fbe94058e0e/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/b5dfc54f99f165b7e2e14fbe94058e0e/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/3b754af8633d3e6ba5686319dad8e7db/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/3b754af8633d3e6ba5686319dad8e7db/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/0ee1c4f657665cff5db7a97d21e76791/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/0ee1c4f657665cff5db7a97d21e76791/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/af2297dc27eac422ddb392993cc44904/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/af2297dc27eac422ddb392993cc44904/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/0c53dfcf2c8214fa06cfb0290e7b7c76/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/0c53dfcf2c8214fa06cfb0290e7b7c76/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/aa10f8fe7bb0bc3249b2f22f7494e076/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/aa10f8fe7bb0bc3249b2f22f7494e076/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/e3e52789a9abde350fb02b97083bd1a7/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/e3e52789a9abde350fb02b97083bd1a7/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/bc238a2fc7e757bd80760132250fbaeb/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/bc238a2fc7e757bd80760132250fbaeb/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/eltoruz/.gradle/caches/8.14.3/transforms/e79f47384b2bb2da5efb11a463a5a4e5/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/eltoruz/.gradle/caches/8.14.3/transforms/e79f47384b2bb2da5efb11a463a5a4e5/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/eltoruz/.gradle/caches/8.14.3/transforms/657620c24a4ee8b4d19a14c977feaf30/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/eltoruz/.gradle/caches/8.14.3/transforms/657620c24a4ee8b4d19a14c977feaf30/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/3cd094a21639faf9f99f421d7015943d/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/3cd094a21639faf9f99f421d7015943d/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/053471da24761f4fef193ceaa83814db/transformed/activity-ktx-1.12.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/053471da24761f4fef193ceaa83814db/transformed/activity-ktx-1.12.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/c5278bdf721507d454c62b9c5349d5c1/transformed/activity-1.12.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/c5278bdf721507d454c62b9c5349d5c1/transformed/activity-1.12.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/67a29186b9a83b3c1d69a0774d7db03a/transformed/activity-compose-1.12.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.12.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/67a29186b9a83b3c1d69a0774d7db03a/transformed/activity-compose-1.12.2/AndroidManifest.xml:5:5-44
+MERGED from [app.cash.sqldelight:android-driver:2.0.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/ce6db70e3ced51af1ed08773cb53df5b/transformed/android-driver-2.0.2-debug/AndroidManifest.xml:5:5-44
+MERGED from [app.cash.sqldelight:android-driver:2.0.2] /home/eltoruz/.gradle/caches/8.14.3/transforms/ce6db70e3ced51af1ed08773cb53df5b/transformed/android-driver-2.0.2-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/791b0621388ec6803c70fec5ebf0340b/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/791b0621388ec6803c70fec5ebf0340b/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/7df16226201b479dc1a79d69d8cd37a8/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/7df16226201b479dc1a79d69d8cd37a8/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/dffc7400fdd4b1af0d188b9f4089fc3b/transformed/multiplatform-settings-coroutines-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/dffc7400fdd4b1af0d188b9f4089fc3b/transformed/multiplatform-settings-coroutines-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f698b8578c939a5ee5f2e889e3707a52/transformed/multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f698b8578c939a5ee5f2e889e3707a52/transformed/multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8c95b2990a64e6944a74b3e04e610fb6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8c95b2990a64e6944a74b3e04e610fb6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f5d8164f2e600b19083e3ae0982484a0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/f5d8164f2e600b19083e3ae0982484a0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/da322928e004425a19c75ff98c92290d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/da322928e004425a19c75ff98c92290d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d18b5b88a8278582532f7d97e0d75fef/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d18b5b88a8278582532f7d97e0d75fef/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/54a6f564f230d1cbd1668c89cb57e581/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/54a6f564f230d1cbd1668c89cb57e581/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/9c95e6fd9127cd0b61f0b6a3df67ff51/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/9c95e6fd9127cd0b61f0b6a3df67ff51/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d56e5fb0408c2a00ae542a77dd8f3fdd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/d56e5fb0408c2a00ae542a77dd8f3fdd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/221e539091a7c355a87c6e00eec5838c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/221e539091a7c355a87c6e00eec5838c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/b22a520192e4ef82be95009f9c1d1191/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/b22a520192e4ef82be95009f9c1d1191/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/7b1a8b5e657d192a25b8636943d1a7c8/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/7b1a8b5e657d192a25b8636943d1a7c8/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/eltoruz/AndroidStudioProjects/tugas9_123140077/composeApp/src/androidMain/AndroidManifest.xml
+provider#org.jetbrains.compose.resources.AndroidContextProvider
+ADDED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:8:9-13:20
+	android:enabled
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:10:13-84
+	android:exported
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/ea4e43e55c33f4137ec86e8080680d48/transformed/library-release/AndroidManifest.xml:9:13-82
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a06a80781f0ac5a85799bb18687f206b/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/c911f16c80876c177b0d1e119e4cb6a6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/a1cd0faffec4223b230bbadc06db3c73/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /home/eltoruz/.gradle/caches/8.14.3/transforms/66758b89de24507554aaaf7f009aae57/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/13d8c13281e198af7735a998d53dfb91/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+permission#com.eltoruz.myprofileapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+uses-permission#com.eltoruz.myprofileapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/34545c4a5ee65e4855868723ab22dced/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#com.russhwolf.settings.SettingsInitializer
+ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /home/eltoruz/.gradle/caches/8.14.3/transforms/05160a22e13eb676f7df7e72d0daba9c/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/eltoruz/.gradle/caches/8.14.3/transforms/8ad5b487fe8bbd7f6d8253309570572b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

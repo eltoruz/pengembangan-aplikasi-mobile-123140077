@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.eltoruz.myprofileapp.composeApp-mergeDebugResources-52:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/eltoruz/.gradle/caches/8.14.3/transforms/841c32533c821c024576821a925efef7/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
