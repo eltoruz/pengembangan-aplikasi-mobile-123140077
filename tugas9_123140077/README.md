@@ -199,7 +199,7 @@ CREATE TABLE NoteEntity (
 > 4. **Clear Chat** — Menghapus riwayat percakapan
 > 5. **Error Handling** — Menampilkan snackbar jika terjadi error
 
-🔗 **Link Video Demo:** *(akan ditambahkan)*
+🔗 **Link Video Demo:** [VideoDemo](https://drive.google.com/file/d/1OL7uTvFco-qktZdclJTLs3iG1h_GvwJN/view?usp=sharing)
 
 ---
 
