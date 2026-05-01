@@ -128,3 +128,38 @@ sqldelight {
         }
     }
 }
+
+val generateBuildKonfig by tasks.registering {
+    val localPropsFile = rootProject.file("local.properties")
+    val outputDir = layout.buildDirectory.dir("generated/buildkonfig/commonMain/kotlin")
+
+    inputs.file(localPropsFile).optional()
+    outputs.dir(outputDir)
+
+    doLast {
+        val props = java.util.Properties()
+        if (localPropsFile.exists()) {
+            localPropsFile.inputStream().use { props.load(it) }
+        }
+        val apiKey = props.getProperty("GEMINI_API_KEY", "")
+
+        val dir = outputDir.get().asFile.resolve("com/eltoruz/myprofileapp/data")
+        dir.mkdirs()
+        dir.resolve("BuildKonfig.kt").writeText(
+            """
+            |package com.eltoruz.myprofileapp.data
+            |
+            |object BuildKonfig {
+            |    const val GEMINI_API_KEY: String = "$apiKey"
+            |}
+            """.trimMargin()
+        )
+    }
+}
+
+kotlin.sourceSets.commonMain {
+    kotlin.srcDir(generateBuildKonfig.map { 
+        layout.buildDirectory.dir("generated/buildkonfig/commonMain/kotlin").get() 
+    })
+}
+
